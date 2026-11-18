@@ -21,10 +21,19 @@
     "process": [
       "ffmpeg",
       "yt-dlp",
+      "deno",
+      "node",
+      "bun",
       "/opt/homebrew/bin/ffmpeg",
       "/opt/homebrew/bin/yt-dlp",
+      "/opt/homebrew/bin/deno",
+      "/opt/homebrew/bin/node",
+      "/opt/homebrew/bin/bun",
       "/usr/local/bin/ffmpeg",
-      "/usr/local/bin/yt-dlp"
+      "/usr/local/bin/yt-dlp",
+      "/usr/local/bin/deno",
+      "/usr/local/bin/node",
+      "/usr/local/bin/bun"
     ]
   },
   "settings": [
@@ -33,6 +42,12 @@
       "label": "sp_dc cookie",
       "help": "Sign in at open.spotify.com in your browser, then copy the sp_dc cookie from its developer tools (Storage > Cookies). Needed on Linux, optional elsewhere.",
       "link": "https://open.spotify.com"
+    },
+    {
+      "key": "youtubeCookie",
+      "label": "YouTube Music cookie",
+      "help": "Optional Cookie header from music.youtube.com (including SAPISID or __Secure-3PAPISID) for yt-dlp fallback when YouTube asks to confirm you are not a bot.",
+      "link": "https://music.youtube.com"
     }
   ],
   "navigation": [

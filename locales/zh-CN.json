@@ -8,6 +8,9 @@
   "Songs like the one you played last.": "根据你最近播放的歌曲推荐。",
   "Your Spotify session has ended: sign in again": "你的 Spotify 登录已过期，请重新登录",
   "Spotify didn't take that sign-in: try again": "Spotify 没有接受这次登录，请重试",
+  "Spotify returned an empty access token": "Spotify 返回了空的访问令牌",
+  "Spotify returned an anonymous token for the supplied sp_dc cookie": "Spotify 对当前 sp_dc Cookie 返回了匿名令牌（未识别为已登录会话）",
+  "Spotify sign-in could not be verified": "无法验证 Spotify 登录状态",
   "Allow MyGotify to start programs in its settings": "请在 MyGotify 的设置中允许它启动程序",
   "MyGotify plays audio through ffmpeg: install it with Homebrew, or so that it's on the PATH": "MyGotify 需要 ffmpeg 才能播放音频：请用 Homebrew 安装，或安装到 PATH 中",
   "YouTube gave this visit no ID": "YouTube 没有给这次访问分配 ID",
@@ -27,5 +30,7 @@
   "Artists": "艺人",
   "Made For You": "为你推荐",
   "Recently Played": "最近播放",
-  "Songs you play will show here": "播放过的歌曲会显示在这里"
+  "Songs you play will show here": "播放过的歌曲会显示在这里",
+  "YouTube Music cookie": "YouTube Music Cookie",
+  "Optional Cookie header from music.youtube.com (including SAPISID or __Secure-3PAPISID) for yt-dlp fallback when YouTube asks to confirm you are not a bot.": "可选：填写来自 music.youtube.com 的 Cookie 请求头（含 SAPISID 或 __Secure-3PAPISID），用于 YouTube 触发机器人校验时供 yt-dlp 备用播放使用。"
 }
